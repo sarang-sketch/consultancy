@@ -1,0 +1,137 @@
+/* Image Placeholders */
+.placeholder-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.placeholder-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,0.15) 0%, transparent 50%),
+        radial-gradient(circle at 70% 70%, rgba(255,255,255,0.08) 0%, transparent 50%);
+}
+
+.placeholder-image span {
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    line-height: 1.3;
+}
+
+/* Homepage Images */
+.consultant-main {
+    background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+    height: 500px;
+}
+
+.hotel-ops-home {
+    background: linear-gradient(135deg, #8B4513 0%, #CD853F 100%);
+    height: 280px;
+}
+
+.pre-open-home {
+    background: linear-gradient(135deg, #1B4F72 0%, #5DADE2 100%);
+    height: 280px;
+}
+
+.revenue-home {
+    background: linear-gradient(135deg, #7D3C98 0%, #BB8FCE 100%);
+    height: 280px;
+}
+
+/* About Page Images */
+.consultant-about {
+    background: linear-gradient(135deg, #1A252F 0%, #2C3E50 100%);
+    height: 500px;
+}
+
+.expertise-general {
+    background: linear-gradient(135deg, #B7950B 0%, #F1C40F 100%);
+    height: 200px;
+}
+
+.expertise-resort {
+    background: linear-gradient(135deg, #148F77 0%, #58D68D 100%);
+    height: 200px;
+}
+
+.expertise-banquet {
+    background: linear-gradient(135deg, #A93226 0%, #F1948A 100%);
+    height: 200px;
+}
+
+.expertise-fb {
+    background: linear-gradient(135deg, #6C3483 0%, #D2B4DE 100%);
+    height: 200px;
+}
+
+/* Services Page Images */
+.hotel-ops-detail {
+    background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+    height: 280px;
+}
+
+.pre-open-detail {
+    background: linear-gradient(135deg, #1B4F72 0%, #3498DB 100%);
+    height: 280px;
+}
+
+.revenue-detail {
+    background: linear-gradient(135deg, #7D3C98 0%, #A569BD 100%);
+    height: 280px;
+}
+
+.banquet-detail {
+    background: linear-gradient(135deg, #922B21 0%, #E74C3C 100%);
+    height: 280px;
+}
+
+.restaurant-detail {
+    background: linear-gradient(135deg, #7E5109 0%, #F39C12 100%);
+    height: 280px;
+}
+
+.training-detail {
+    background: linear-gradient(135deg, #0E4B99 0%, #5DADE2 100%);
+    height: 280px;
+}
+
+/* Experience Page Images */
+.timeline-luxury {
+    background: linear-gradient(135deg, #B7950B 0%, #D4AC0D 100%);
+    height: 300px;
+}
+
+.timeline-resort {
+    background: linear-gradient(135deg, #148F77 0%, #17A2B8 100%);
+    height: 300px;
+}
+
+.timeline-events {
+    background: linear-gradient(135deg, #A93226 0%, #E74C3C 100%);
+    height: 300px;
+}
+
+.timeline-restaurant {
+    background: linear-gradient(135deg, #6C3483 0%, #8E44AD 100%);
+    height: 300px;
+}
+
+.timeline-government {
+    background: linear-gradient(135deg, #1B2631 0%, #2C3E50 100%);
+    height: 300px;
+}
